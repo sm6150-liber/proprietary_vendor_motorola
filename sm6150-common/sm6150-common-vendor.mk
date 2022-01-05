@@ -936,7 +936,6 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     QtiTelephonyService \
-    datastatusnotification \
     uceShimService \
     WfdService \
     ims \
@@ -947,7 +946,6 @@ PRODUCT_PACKAGES += \
     moto-telephony \
     qcom-moto-ims-ext \
     qcom-moto-telephony-ext \
-    qti-telephony-common \
     vendor.qti.hardware.capabilityconfigstore-V1.0-java \
     android.hardware.keymaster@4.1-service-default-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \

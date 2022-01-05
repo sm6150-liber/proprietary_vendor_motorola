@@ -204,17 +204,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "datastatusnotification",
-	owner: "motorola",
-	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "uceShimService",
 	owner: "motorola",
 	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
@@ -296,13 +285,6 @@ dex_import {
 	name: "qcom-moto-telephony-ext",
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/qcom-moto-telephony-ext.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-common",
-	owner: "motorola",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
 	system_ext_specific: true,
 }
 
